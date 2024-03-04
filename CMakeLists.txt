@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
 project(python_qt_binding)
 
+cmake_policy(SET CMP0148 OLD)
+
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 
