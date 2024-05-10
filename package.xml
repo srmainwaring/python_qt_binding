@@ -3,7 +3,7 @@
   <version>2.3.0</version>
   <description>
     This stack provides Python bindings for Qt.
-    There are two providers: pyside and pyqt.  PySide2 is available under
+    There are two providers: pyside and pyqt.  PySide6 is available under
     the GPL, LGPL and a commercial license.  PyQt is released under the GPL.
 
     Both the bindings and tools to build bindings are included from each
@@ -29,9 +29,9 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <build_depend>qtbase5-dev</build_depend>
-  <build_depend>python3-qt5-bindings</build_depend>
+  <build_depend>python3-qt6-bindings</build_depend>
 
-  <exec_depend>python3-qt5-bindings</exec_depend>
+  <exec_depend>python3-qt6-bindings</exec_depend>
 
   <test_depend>ament_cmake_pytest</test_depend>
   <test_depend>ament_lint_auto</test_depend>
