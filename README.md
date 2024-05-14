@@ -2,7 +2,7 @@
 
 This stack provides Python bindings for Qt.
 There are two providers: pyside and pyqt.
-PySide6 is available under the GPL, LGPL and a commercial license.
+[PySide2 and PySide6](https://wiki.qt.io/Qt_for_Python) are available under the GPL, LGPL and a commercial license.
 PyQt is released under the GPL.
 
 Both the bindings and tools to build bindings are included from each available provider.
