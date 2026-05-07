@@ -49,6 +49,7 @@ if(PySide6_FOUND)
   endif()
   message("Using PYSIDE_INCLUDE_DIR: ${PYSIDE_INCLUDE_DIR}")
   message("Using PYSIDE_LIBRARY: ${PYSIDE_LIBRARY}")
+  message("Using PYSIDE_TYPESYSTEMS: ${PYSIDE_TYPESYSTEMS}")
 endif()
 
 if(Shiboken6_FOUND AND PySide6_FOUND)
